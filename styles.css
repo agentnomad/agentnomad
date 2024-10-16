@@ -1,0 +1,140 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eae6dd;
+    font-weight: 300; /* Poppins Thin */
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    position: absolute; /* Positioning it on top of the image */
+    width: 100%;
+    z-index: 10; /* Ensure it stays on top */
+}
+
+nav a {
+    text-decoration: none;
+    color: #eae6dd; /* Change text color for visibility on overlay */
+    font-weight: 300; /* Poppins Thin for "My Trips" */
+    font-size: 18px;
+}
+
+.nav-left a {
+    font-weight: 600; /* "agent nomad" should remain bold */
+    font-size: 28px; /* Increase size for "agent nomad" */
+}
+
+/* Hero Section with Parallax Effect */
+.hero {
+    height: 80vh;
+    background: url('unsplash-image-XTZpzxFY4Z4.jpg') center/cover no-repeat fixed; /* Parallax effect */
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for better text visibility */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Aligns text to the left */
+    text-align: left; /* Align text to the left */
+    padding: 50px 50px; /* Updated padding for left and right */
+}
+
+.overlay h1 {
+    font-size: 48px;
+    font-weight: 600; /* Keep this bold for emphasis */
+    margin-bottom: 10px;
+    color: #eae6dd; /* Change header color */
+}
+
+.overlay p {
+    font-size: 20px;
+    font-weight: 300; /* Poppins Thin for normal text */
+    margin: 5px 0; /* Add some margin for spacing */
+}
+
+/* New Section Styling */
+.info {
+    padding: 60px 40px; /* Increased padding for more space */
+    background-color: #eae6dd; /* Changed background color to #eae6dd */
+    text-align: left; /* Align text to the left */
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 600; /* Bold for the header */
+    margin-bottom: 15px; /* Spacing below the header */
+}
+
+.info p {
+    font-size: 18px; /* Filler text size */
+    font-weight: 300; /* Poppins Thin for normal text */
+    line-height: 1.6; /* Increase line height for readability */
+    margin: 10px 0; /* Add margins specifically for the text */
+}
+
+/* Button Styling */
+.button {
+    background-color: #7bb5b2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300; /* Poppins Bold for button text */
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #69a09e; /* Darker shade on hover */
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #eae6dd; /* Change background color */
+}
+
+.footer-left p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black; /* Change icon color */
+    font-size: 16px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: black; /* Change link color */
+    font-weight: 300; /* Poppins Thin for footer links */
+    margin-left: 50px;
+}
