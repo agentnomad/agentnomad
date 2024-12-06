@@ -142,7 +142,7 @@ footer {
 /* Contact Hero Section */
 .contact-hero {
     height: 60vh;
-    background: url('unsplash-image-contact.jpg') center/cover no-repeat fixed; /* Replace with a relevant image */
+    background: url('unsplash-image-contact.jpg') center/cover no-repeat; /* Replace with a relevant image */
     position: relative;
 }
 
@@ -152,13 +152,13 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px 50px;
+    padding: 50px;
 }
 
 .contact-hero h1 {
