@@ -5,20 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Us - Agent Nomad</title>
-    <meta name="description" content="Agent Nomad is a travel planning site for the self-planner. Organize your itinerary intuitively with AI-powered suggestions, customized lists, and maps.">
-    <meta name="keywords" content="travel planning, itinerary builder, AI travel, trip customization, self-planner, intuitive travel, day grouping, backup attractions, map view, list view">
-    <meta name="author" content="Agent Nomad">
-    <meta name="robots" content="index, follow">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/agentnomad/agentnomad/main/an_(1).png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/agentnomad/agentnomad/main/an_(1).png">
     <style>
-        /* Page-Specific Styling for About Page */
+        /* Global Styling */
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #eae6dd;
             margin: 0;
             padding: 0;
+            background-color: #eae6dd;
         }
 
         nav {
@@ -27,11 +23,14 @@
             align-items: center;
             padding: 20px;
             background-color: #eae6dd;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
 
         nav a {
             text-decoration: none;
-            color: #333;
+            color: black;
             font-weight: 300;
             font-size: 18px;
         }
@@ -42,8 +41,8 @@
         }
 
         .about-section {
-            padding: 60px 40px;
-            background-color: #eae6dd;
+            padding: 100px 40px; /* Extra padding to avoid overlapping header */
+            background-color: #f4f4f2;
             text-align: left;
         }
 
@@ -56,15 +55,14 @@
         .about-section p {
             font-size: 18px;
             font-weight: 300;
-            margin-bottom: 20px;
             line-height: 1.8;
         }
 
-        .about-section ul {
-            font-size: 18px;
-            font-weight: 300;
-            margin-bottom: 40px;
-            line-height: 1.6;
+        .about-section img {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px 0;
+            border-radius: 10px;
         }
 
         footer {
@@ -110,22 +108,25 @@
     </div>
 </nav>
 
-<!-- About Section -->
+<!-- About Us Section -->
 <div class="about-section">
-    <h1>About Us</h1>
-    <p>Agent Nomad is your go-to travel planning platform, designed for travelers who love to take control of their own itineraries. Our site offers a blend of intuitive tools and AI-powered suggestions to create unique, personalized trips.</p>
-
-    <h2>What Makes Us Different</h2>
+    <h1>About Agent Nomad</h1>
+    <p>Agent Nomad is your intuitive travel planning platform designed for self-planners who seek a personalized and dynamic approach to organizing their trips. Our site allows you to:</p>
     <ul>
-        <li>**Custom Itineraries**: View your plans in both list and map formats, ensuring you can visualize your trip your way.</li>
-        <li>**AI Assistance**: Use our smart recommendations to find nearby attractions without following cookie-cutter itineraries.</li>
-        <li>**Day Grouping**: Organize must-see destinations and discover complementary activities to group into day plans.</li>
-        <li>**Backup Plans**: Add "if there's time" locations for flexibility, so you're always prepared.</li>
-        <li>**Export Options**: Export your finalized itineraries to an Excel sheet for easy access and sharing.</li>
+        <li>View your itinerary on a map or as a list.</li>
+        <li>Use AI to guide your planning without providing generic itineraries.</li>
+        <li>Select must-see places and discover nearby attractions to group into daily plans.</li>
+        <li>Add backup places for "if there's time" moments.</li>
     </ul>
+    <img src="https://via.placeholder.com/600x300" alt="Placeholder image for the itinerary view">
 
-    <h2>Plan Your Way</h2>
-    <p>Whether you're a meticulous planner or prefer to go with the flow, Agent Nomad gives you the tools to create trips that reflect your unique style. From choosing must-see destinations to planning spontaneous side trips, we make travel planning enjoyable and stress-free.</p>
+    <h2>Intelligent Features</h2>
+    <p>Our AI helps you build unique itineraries by grouping attractions based on proximity, duration, and your interests, ensuring every day is optimized for maximum enjoyment. Say goodbye to generic plans and hello to your custom adventure.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Placeholder image for intelligent features">
+
+    <h2>Tailored for You</h2>
+    <p>At Agent Nomad, we believe travel should be as unique as you are. With tools for prioritizing your must-see spots and flexible backups, our planner adapts to your preferences and plans.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Placeholder image for personalized planning">
 </div>
 
 <!-- Footer -->
