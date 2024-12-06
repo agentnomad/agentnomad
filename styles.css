@@ -138,3 +138,39 @@ footer {
     font-weight: 300; /* Poppins Thin for footer links */
     margin-left: 50px;
 }
+
+/* Contact Hero Section */
+.contact-hero {
+    height: 60vh;
+    background: url('unsplash-image-contact.jpg') center/cover no-repeat fixed; /* Replace with a relevant image */
+    position: relative;
+}
+
+.contact-hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 50px;
+}
+
+.contact-hero h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #eae6dd;
+    margin-bottom: 15px;
+}
+
+.contact-hero p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
